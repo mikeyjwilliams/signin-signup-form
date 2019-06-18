@@ -319,19 +319,31 @@ p {
 .container {
   display: flex;
   justify-content: center;
-  margin-top: 5rem; }
+  margin-top: 5rem;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.heading {
+  font-size: 3.5rem;
+  margin-bottom: 10px; }
 
 .sign-in-hello-wrapper {
   display: flex;
-  flex-direction: row;
-  margin: 0 auto; }
+  flex-direction: row; }
 
 .sign-in-wrapper {
+  width: 50%;
+  border-radius: 10px;
   border: 1px solid slategray;
   padding: 8.5rem;
   margin-right: 8rem; }
 
 .text-center {
   text-align: center; }
+
+.icons-section {
+  display: flex;
+  justify-content: space-evenly; }
 
 /*# sourceMappingURL=index.css.map */

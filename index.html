@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Rubik:400,900|Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
     <link rel="stylesheet" href="./css/index.css" />
     <script src="https://kit.fontawesome.com/8e438a553a.js" async></script>
     <script src="./js/index.js" async></script>
@@ -27,6 +32,46 @@
                   <i class="fab fa-linkedin fa-6x"></i>
                 </span>
               </div>
+              <div class="options-text">
+                <p class="text-center">
+                  Or use your account:
+                </p>
+              </div>
+              <form action="#" class="sign-in-form">
+                <div class="email-box">
+                  <label for="sign-in-email" class="email">
+                    Email:
+                  </label>
+                  <input
+                    type="text"
+                    class="email"
+                    name="sign-in-email"
+                    id="sign-in-email"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="password-box">
+                  <label for="sign-in-password" class="password"
+                    >Password
+                  </label>
+                  <input
+                    type="password"
+                    class="password"
+                    id="sign-in-password"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="forgotten-password">
+                  <a href="#" class="password-lost">
+                    <p class="text-center">Forgot your password?</p>
+                  </a>
+                  <div class="sign-in-section">
+                    <button type="submit" class="btn sign-in-btn">
+                      sign in
+                    </button>
+                  </div>
+                </div>
+              </form>
             </section>
           </div>
           <div class="create-account-wrapper"></div>

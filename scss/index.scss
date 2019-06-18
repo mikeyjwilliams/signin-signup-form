@@ -1,2 +1,7 @@
 //*************** Import Files ********************************//
-@import 'imports/partials/partial-files';
+@import 'imports/utilities/index'; // vars, functions, mixins
+@import 'imports/base/index'; // reset, typography
+@import 'imports/components/index'; // buttons, slider
+@import 'imports/layout/index'; // nav, grid, header, footer, sidebar, forms
+@import 'imports/pages/index'; // forms -> specific styles for the form page.
+// @import 'imports/themes/index'; // Themes -> alternate color themes

@@ -10,8 +10,14 @@ Basic sign up form in html, SCSS (practice for future project), and vanilla Java
 
 ## Task List
 
+- High Order View
+
 [ ] create containers for page items
 [ ] create items that will be located in containers
 [ ] import fontawesome icons for icons spots
-[ ] shape out styling
-[ ] ....and more.....
+[ ] shape out outer styling
+
+1.  [ ] create Sign in page
+1.  [ ] create Create Account page
+1.  [ ] work on javascript to transition from one page to another.
+        [ ] ....and more.....

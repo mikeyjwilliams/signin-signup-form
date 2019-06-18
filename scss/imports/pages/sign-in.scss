@@ -1,0 +1,9 @@
+.sign-in-wrapper {
+  border: 1px solid slategray;
+  padding: 8.5rem;
+  margin-right: 8rem;
+}
+
+.text-center {
+  @include text-center;
+}

@@ -1,0 +1,28 @@
+{
+  "name": "signin-signup-form",
+  "version": "1.0.0",
+  "description": "sign in up component in html, css, js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeyjwilliams/signin-signup-form.git"
+  },
+  "keywords": [
+    "signup",
+    "signin",
+    "form",
+    "demo"
+  ],
+  "author": "Michael Williams",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikeyjwilliams/signin-signup-form/issues"
+  },
+  "homepage": "https://github.com/mikeyjwilliams/signin-signup-form#readme",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.9.0"
+  }
+}
